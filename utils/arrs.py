@@ -48,4 +48,3 @@ def my_slice(coll, start=None, end=None):
 
 
 test = unittest.TestLoader()
-test.discover('..\\tests', pattern='')
