@@ -1,5 +1,5 @@
 """Функции для работы с массивами"""
-
+import unittest
 
 def get(array, index, default=None):
     """
@@ -44,3 +44,6 @@ def my_slice(coll, start=None, end=None):
         normalized_end = end
 
     return coll[normalized_start:normalized_end]
+
+test = unittest.TestLoader()
+test.discover('..\\tests', pattern='')
